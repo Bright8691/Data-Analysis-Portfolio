@@ -158,11 +158,11 @@ Dashboard Visualizations
  
 Model Performance
 The result of the model development. Logistic Regression model was selected as the best model in  fraud detection.
-	Model	Accuracy	Precision	Recall	F1	ROC_AUC
-0	Logistic Regression	0.6535	0.0407	0.7435	0.0772	0.7468
-1	Decision Tree	0.7160	0.0318	0.4615	0.0596	0.5864
-2	Random Forest	0.9730	0.0588	0.0256	0.0357	0.6898
-3	XGBoost	0.9805	0.0000	0.0000	0.0000	0.0000
+	Model				|	Accuracy	|	Precision	|	Recall		|	F1		|	ROC_AUC
+0	Logistic Regression	| 	0.6535		|	0.0407		|	0.7435		|	0.0772	|	0.7468
+1	Decision Tree		|	0.7160		|	0.0318		|	0.4615		|	0.0596	|	0.5864
+2	Random Forest		|	0.9730		|	0.0588		|	0.0256		|	0.0357	|	0.6898
+3	XGBoost				|	0.9805		|	0.0000		|	0.0000		|	0.0000	|	0.0000
 4						
 Why Choose Logistic Regression?
 In fraud detection, accuracy is not the most important metric because fraud is an imbalance classification problem. 
@@ -238,14 +238,14 @@ Data Analyst | Machine Learning Enthusiast | Civil Engineer
 
 Observations
 During the investigation, i discovered that there are 37 Unknow Transaction in the channel column.
-# 36 ====> Legitimate Transaction
-# 1 ======> Fraud
-# This represents less than 0.5% of the dataset.
-# Since it contained both legitimate and fraudulent transactions, i have to keep it 
+36 ====> Legitimate Transaction
+1 ======> Fraud
+This represents less than 0.5% of the dataset.
+Since it contained both legitimate and fraudulent transactions, i have to keep it 
 
-# During the investigation, i discovered that there are 32 Unknow Transaction in the home_country column.
-# 31 ====> Legitimate Transaction
-# 1 ======> Fraud
-# This represents less than 0.5% of the dataset.
-# Since it contained both legitimate and fraudulent transactions, i have to keep it 
+During the investigation, i discovered that there are 32 Unknow Transaction in the home_country column.
+31 ====> Legitimate Transaction
+1 ======> Fraud
+This represents less than 0.5% of the dataset.
+Since it contained both legitimate and fraudulent transactions, i have to keep it 
 
