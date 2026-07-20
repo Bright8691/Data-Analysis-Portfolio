@@ -11,7 +11,7 @@ Fraud in financial institutions can cause great financial losses, instability an
 
 # Data
 
-The dataset contains some transaction records and are not limited to the following:<br>
+The dataset contains some transaction records and are not limited to the following:
 - Transaction Identification
 - Customer Identification
 - Home Country
@@ -45,74 +45,82 @@ Programming Language
 Libraries
 
 - Pandas
-•	NumPy
-•	Matplotlib
-•	Scikit-learn
-•	XGBoost
-•	Joblib
+- NumPy
+- Matplotlib
+- Scikit-learn
+- XGBoost
+- Joblib
+- 
 Business Intelligence
-•	Microsoft Power BI
-Development Environment
-•	Jupyter Notebook
 
-Project Workflow
+- Microsoft Power BI
+ 
+Development Environment
+
+- Jupyter Notebook
+
+# Project Workflow
 
 An end-to-end machine learning pipeline which consists of 8 major phases was use to evaluate and develop the model
+
 Phase 1 – Project Setup & Data Collection
-•	Import libraries
-•	Load dataset
-________________________________________
+
+- Import libraries
+- Load dataset
+
 Phase 2 – Data Understanding & Exploration
-•	Dataset inspection<br>
-•	Missing value analysis<br>
-•	Duplicate detection<br>
-•	Summary statistics<br>
-•	Exploratory Data Analysis (EDA)<br>
-•	Fraud distribution<br>
-•	Correlation analysis<br>
+
+- Dataset inspection<br>
+- Missing value analysis<br>
+- Duplicate detection<br>
+- Summary statistics<br>
+- Exploratory Data Analysis (EDA)<br>
+- Fraud distribution<br>
+- Correlation analysis<br>
 
 Phase 3 – Data Preprocessing & Feature Engineering
 
-•	Handle missing values<br>
-•	Remove duplicates<br>
-•	Data type conversion<br>
-•	Outlier treatment<br>
-•	Feature engineering<br>
-•	Train-test split<br>
-•	Data transformation<br>
-•	Preprocessing pipeline<br>
+- Handle missing values<br>
+- Remove duplicates<br>
+- Data type conversion<br>
+- Outlier treatment<br>
+- Feature engineering<br>
+- Train-test split<br>
+- Data transformation<br>
+- Preprocessing pipeline<br>
 
 Phase 4 – Model Development
 
 Machine learning models evaluated:
-•	Logistic Regression<br>
-•	Decision Tree<br>
-•	Random Forest<br>
-•	XGBoost<br>
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- XGBoost
+- 
 Model optimization:
-•	Hyperparameter tuning<br>
-•	Cross-validation<br>
+- Hyperparameter tuning
+- Cross-validation
 
 Phase 5 – Model Evaluation
 
 Evaluation metrics:
-•	Accuracy<br>
-•	Precision
-•	Recall
-•	F1-score
-•	ROC-AUC
-•	Precision-Recall Curve
-•	Confusion Matrix
-•	Threshold Optimization
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
+- Precision-Recall Curve
+- Confusion Matrix
+- Threshold Optimization
 
 Phase 6 – Model Deployment
-•	Save trained model
-•	Load model
-•	Predict new transactions
+- Save trained model
+- Load model
+- Predict new transactions
 
 Phase 7 – Business Interpretation
-•	Model limitations
-•	Business recommendations
+- Model limitations
+- Business recommendations
 
 Phase 8 – Project Conclusion
 Which summarized the findings and discuss future improvements.
@@ -146,25 +154,30 @@ The interactive dashboard provides insights into transaction activity and fraud 
 
 
 # Executive KPIs
-•	Total Transaction
-•	Total Fraud
-•	Fraud Rate
-•	Total Transaction Amount
-•	Fraud Loss Amount
-•	Legit Transaction
-•	Average Fraud
-Dashboard Visualizations
-•	Fraud vs Legitimate Transactions
-•	Total Fraud by Month
-•	Fraud and Legitimate Transaction by Type
-•	Fraud Loss by  Channel
-•	Fraud transaction by Country
-•	Fraud by Device Type
-•	Logistic Regression Model
+- Total Transaction
+- Total Fraud
+- Fraud Rate
+- Total Transaction Amount
+- Fraud Loss Amount
+- Legit Transaction
+- Average Fraud
+ 
+# Executive Dashboard Visualizations
+- Fraud vs Legitimate Transactions
+- Total Fraud by Month
+- Total Fraud by Year
+- Fraud and Legitimate Transaction by Type
+- Fraud Loss by  Channel
+- Fraud transaction by Country
+- Fraud by Device Type
+- Logistic Regression Model
  
 # Dashboard Preview
  
 <img width="300" height="160" alt="fraud_powerbi" src="https://github.com/user-attachments/assets/630619fb-da32-4f64-82b0-7c68fa2243d9" />
+
+# Dashboard Summary
+
   
 # Model Performance
 The result of the model development. Logistic Regression model was selected as the best model in  fraud detection.
@@ -179,12 +192,13 @@ The result of the model development. Logistic Regression model was selected as t
 Why Choose Logistic Regression?
 
 In fraud detection, accuracy is not the most important metric because fraud is an imbalance classification problem. 
-•	Random Forest achieved 97.35% accuracy
-•	XGBoost achieved 98.05% accuracy
+1. Random Forest achieved 97.35% accuracy
+2. XGBoost achieved 98.05% accuracy
+   
 A closer look on the table they have the following:
-•	Precision = 0
-•	Recall = 0
-•	F1 = 0
+- Precision = 0
+- Recall = 0
+- F1 = 0
 
 Which means they did not identify a single fraudulent transaction. They simply predicted every transaction as legitimate because fraud cases are rare. As such they are not the best for fraud detection.
 
@@ -245,33 +259,33 @@ Run the notebook from top to bottom.
 
 # Skills Demonstrated
 
-•	Data Cleaning & Preprocessing
-•	Exploratory Data Analysis (EDA)
-•	Feature Engineering
-•	Machine Learning Classification
-•	Model Evaluation
-•	Hyperparameter Tuning
-•	Threshold Optimization
-•	Model Deployment
-•	Power BI Dashboard Development
-•	Business Intelligence Reporting
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Machine Learning Classification
+- Model Evaluation
+- Hyperparameter Tuning
+- Threshold Optimization
+- Model Deployment
+- Power BI Dashboard Development
+- Business Intelligence Reporting
 
- Author
+ # Author
 Bright C Egbuchulem
 Data Analyst | Machine Learning Enthusiast | Civil Engineer
-•	GitHub: https://github.com/Bright8691
-•	Email: bc.egbuchulem@gmail.com
+- GitHub: https://github.com/Bright8691
+- Email: bc.egbuchulem@gmail.com
 
 # Observations
 During the investigation, i discovered that there are 37 Unknow Transaction in the channel column.
-36 ====> Legitimate Transaction
-1 ======> Fraud
+- 36 ====> Legitimate Transaction
+- 1 =====> Fraud
 This represents less than 0.5% of the dataset.
 Since it contained both legitimate and fraudulent transactions, i have to keep it 
 
 During the investigation, i discovered that there are 32 Unknow Transaction in the home_country column.
-31 ====> Legitimate Transaction
-1 ======> Fraud
+- 31 ====> Legitimate Transaction
+- 1 =====> Fraud
 This represents less than 0.5% of the dataset.
 Since it contained both legitimate and fraudulent transactions, i have to keep it 
 
