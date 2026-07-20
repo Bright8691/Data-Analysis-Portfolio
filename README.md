@@ -80,14 +80,14 @@ Phase 2 – Data Understanding & Exploration
 
 Phase 3 – Data Preprocessing & Feature Engineering
 
-- Handle missing values<br>
-- Remove duplicates<br>
-- Data type conversion<br>
-- Outlier treatment<br>
-- Feature engineering<br>
-- Train-test split<br>
-- Data transformation<br>
-- Preprocessing pipeline<br>
+- Handle missing values
+- Remove duplicates
+- Data type conversion
+- Outlier treatment
+- Feature engineering
+- Train-test split
+- Data transformation
+- Preprocessing pipeline
 
 Phase 4 – Model Development
 
@@ -96,7 +96,7 @@ Machine learning models evaluated:
 - Decision Tree
 - Random Forest
 - XGBoost
-- 
+ 
 Model optimization:
 - Hyperparameter tuning
 - Cross-validation
@@ -178,6 +178,35 @@ The interactive dashboard provides insights into transaction activity and fraud 
 
 # Dashboard Summary
 
+Executive Summary
+- We have about 10,000 transactions, 195 were identified as fraudulent and a fraud rate of 2%.
+- Total transaction amount is about $4.02 million with an estimated loss of about $145.92 thousand which indicate amount    loss as a result of fraud transactions.
+
+Fraud Distribution
+- Legitimate transactions is far more than the fraudulent transaction. This confirms the fact fraud detection is highly imbalanced classification problem. For this reason, it needs specialized machine learning techniques.
+
+Fraud Trend Over Time
+- Fraud occurrences is not steady, it  fluctuates  across the months and years, whcih means that fraud activity are influenced by seasons or operational factors. For this reason costant monitoring is essential.
+  
+Fraud by Country
+- The United Kingdom recorded highest fraud loss, with the United States as second, and Canada experienced  few fraudulent transactions. Which shows that more attention should be devoted to the United kingdom and the United States
+
+Fraud by Transaction Channel
+- Higher fraud losses were experienced in Mobile and Web channels than in ATM and Unknown channels. Which suggests that more attention should be paid in digital channels to improve stronger authentication mechanisms and enhanced fraud monitoring.
+  
+Fraud by Transaction Type
+- The largest amount in transaction were seen in Mobile and Web transaction types, making them to be the primary targets of fraud and fraud prevention.
+  
+Machine Learning Model Performance
+- Logistic Regression was selected amoung the 5 models developed and evaluate as the best balance between detecting fraudulent transactions and limiting missed fraud cases.
+- The final model achieved:
+  1. Accuracy: 0.68
+  2. Recall: 0.74
+  3. Precision: 0.04
+  4. F1-Score: 0.08
+5. ROC-AUC: 0.75
+The model's high recall though with low precision still makes it more appropriate for fraud detection.
+
   
 # Model Performance
 The result of the model development. Logistic Regression model was selected as the best model in  fraud detection.
@@ -205,11 +234,11 @@ Which means they did not identify a single fraudulent transaction. They simply p
 # Logistic Regression
 
 The Logistic Regression achieved:
-•	Accuracy = 65.40%
-•	Precision = 4.07%
-•	Recall = 74.35%
-•	F1-score = 7.73%
-•	ROC-AUC = 0.7452 (highest)
+- Accuracy = 65.40%
+- Precision = 4.07%
+- Recall = 74.35%
+- F1-score = 7.73%
+- ROC-AUC = 0.7452 (highest)
 
 This means it successfully detected about 74% of fraudulent transactions, which is generally the priority in fraud detection. Although it generated many false positives (low precision), suspicious transactions can often be reviewed manually or subjected to additional verification. Missing fraud is usually more costly than investigating legitimate transactions.
 
