@@ -133,11 +133,11 @@ Model Development
 |
 V
 Power BI Dashboard
+The interactive dashboard provides insights into transaction activity and fraud trends
 
- Power BI Dashboard
-The interactive dashboard provides insights into transaction activity and fraud trends.
 
-Executive KPIs
+
+# Executive KPIs
 •	Total Transaction
 •	Total Fraud
 •	Fraud Rate
@@ -153,18 +153,23 @@ Dashboard Visualizations
 •	Fraud transaction by Country
 •	Fraud by Device Type
 •	Logistic Regression Model
- Dashboard Preview
  
+# Dashboard Preview
  
-Model Performance
+<img width="300" height="160" alt="fraud_powerbi" src="https://github.com/user-attachments/assets/630619fb-da32-4f64-82b0-7c68fa2243d9" />
+  
+# Model Performance
 The result of the model development. Logistic Regression model was selected as the best model in  fraud detection.
-	Model				|	Accuracy	|	Precision	|	Recall		|	F1		|	ROC_AUC
-0	Logistic Regression	| 	0.6535		|	0.0407		|	0.7435		|	0.0772	|	0.7468
-1	Decision Tree		|	0.7160		|	0.0318		|	0.4615		|	0.0596	|	0.5864
-2	Random Forest		|	0.9730		|	0.0588		|	0.0256		|	0.0357	|	0.6898
-3	XGBoost				|	0.9805		|	0.0000		|	0.0000		|	0.0000	|	0.0000
-4						
+|	Model				|	Accuracy	|	Precision	|	Recall		|	F1		|	ROC_AUC |
+|-----------------------|---------------|---------------|---------------|-----------|-----------|
+|	Logistic Regression	| 	0.6535		|	0.0407		|	0.7435		|	0.0772	|	0.7468  |
+|	Decision Tree		|	0.7160		|	0.0318		|	0.4615		|	0.0596	|	0.5864  |
+|	Random Forest		|	0.9730		|	0.0588		|	0.0256		|	0.0357	|	0.6898  |
+|	XGBoost				|	0.9805		|	0.0000		|	0.0000		|	0.0000	|	0.0000  |
+
+						
 Why Choose Logistic Regression?
+
 In fraud detection, accuracy is not the most important metric because fraud is an imbalance classification problem. 
 •	Random Forest achieved 97.35% accuracy
 •	XGBoost achieved 98.05% accuracy
@@ -172,39 +177,51 @@ A closer look on the table they have the following:
 •	Precision = 0
 •	Recall = 0
 •	F1 = 0
+
 Which means they did not identify a single fraudulent transaction. They simply predicted every transaction as legitimate because fraud cases are rare. As such they are not the best for fraud detection.
-Logistic Regression
-Your Logistic Regression achieved:
+
+# Logistic Regression
+
+The Logistic Regression achieved:
 •	Accuracy = 65.40%
 •	Precision = 4.07%
 •	Recall = 74.35%
 •	F1-score = 7.73%
 •	ROC-AUC = 0.7452 (highest)
+
 This means it successfully detected about 74% of fraudulent transactions, which is generally the priority in fraud detection. Although it generated many false positives (low precision), suspicious transactions can often be reviewed manually or subjected to additional verification. Missing fraud is usually more costly than investigating legitimate transactions.
-Threshold Selection
+
+# Threshold Selection
 Several classification thresholds were evaluated. Although higher thresholds improved Precision, they also reduced Recall substantially. A threshold of 0.50 was selected because it met the objective of the project, fraud detection. 
 
-ROC Curve
+# ROC Curve
 
+<img width="800" height="800" alt="roc_curve" src="https://github.com/user-attachments/assets/78c1fb23-b74e-4b2d-814b-c976da26e5ab" />
 
 AUC = 0.68
 This indicates poor-to-moderate predicting power. The Random Forest model  with AUC of 0.69 is underperforming and can not be reliable in decision-making. That is why Logistic Regression with AUC of 0.75 was selected
-Confusion Matrix
- 
+
+# Confusion Matrix
+
+<img width="800" height="800" alt="confusion_matrix_logisticRegression" src="https://github.com/user-attachments/assets/e5e99472-39eb-462d-b002-0c10ce28c489" />
 
 Matrix Breakdown
 •	1278 (True Negatives) Legitimate transaction predicted
 •	683 (False Positives) incorrectly flagged Legitimate transaction as Fraud
 •	10 (False Negatives) incorrectly missed Fraud transaction labelled as Legitimate
-•	29 (True Positives) 
+•	29 (True Positives)
+
 Accuracy: 65.40% == The model correctly predicted 1,307(True Legitimate) out of 2,000 transactions.
 Recall : 74.36 == The model detected 29 fraud cases out of 39 actual fraud cases, and loss 10
 Precision: 4.07% == Which means out of the 712 times, it was only 29 times was the true fraud. 
 Please Note: For the purpose of the project no further modelling was evaluated to improve prediction model
 
-Precision Recall
- 
+# Precision Recall
+
+ <img width="800" height="800" alt="precision_recall_curve" src="https://github.com/user-attachments/assets/e2d03785-d1c2-41a8-b6ee-d41c5325f6ef" />
+
  Precision = 0.04
+ 
 This is low, because the maximum is 1.0.  This means that the model is performing no better random guessing the in fraud prediction
 
 How to Run This Project
@@ -218,7 +235,8 @@ Open the notebook:
 Jupyter notebook
 Run the notebook from top to bottom.
 
-Skills Demonstrated
+# Skills Demonstrated
+
 •	Data Cleaning & Preprocessing
 •	Exploratory Data Analysis (EDA)
 •	Feature Engineering
@@ -236,7 +254,7 @@ Data Analyst | Machine Learning Enthusiast | Civil Engineer
 •	GitHub: https://github.com/Bright8691
 •	Email: bc.egbuchulem@gmail.com
 
-Observations
+# Observations
 During the investigation, i discovered that there are 37 Unknow Transaction in the channel column.
 36 ====> Legitimate Transaction
 1 ======> Fraud
