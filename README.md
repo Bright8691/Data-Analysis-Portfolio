@@ -33,15 +33,18 @@ The dataset contains some transaction records and are not limited to the followi
 
 Target Variable: is_fraud 
 
-•	0 = Legitimate Transaction<br>
-•	1 = Fraudulent Transaction<br>
+- 0 = Legitimate Transaction<br>
+- 1 = Fraudulent Transaction<br>
 
 # Technologies Used
-Programming Language 
-•	Python 3.13.9
+
+Programming Language
+
+- Python 3.13.9
 
 Libraries
-•	Pandas
+
+- Pandas
 •	NumPy
 •	Matplotlib
 •	Scikit-learn
