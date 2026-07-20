@@ -1,11 +1,16 @@
-# :  Cross-Border Transaction Fraud Detection and Risk Analysis Using Python End-to-End Machine Learning
+# Cross-Border Transaction Fraud Detection and Risk Analysis Using Python End-to-End Machine Learning
 
-Project Overview
+# Project Overview
+
 Financial fraud is a major challenge for banks, payment service providers, and e-commerce platforms. In order to minimize financial losses, maintain trust of the customers and be stable in business it is pertinent to quickly and accurately detect fraudulent transactions.
 End-to-End fraud Detecting System was used to apply machine learning techniques to identify fraudulent transactions. The project also covers the major data science lifecycle which if from data understand and exploratory, data preprocessing and feature engineering, model development, evaluation and deployment, threshold optimization, business interpretation and business intelligence report using Power BI.
-Business Problem
+
+# Business Problem
+
 Fraud in financial institutions can cause great financial losses, instability and ruin long term reputation of the institution. Thus, the objective of this project is to evaluate and develop a learning model capable to identify fraud and balance false positives with fraudulent transactions.
-Data
+
+# Data
+
 The dataset contains some transaction records and are not limited to the following:
 •	Transaction Identification
 •	Customer Identification
