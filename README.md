@@ -101,38 +101,30 @@ Phase 7 – Business Interpretation
 Phase 8 – Project Conclusion
 Which summarized the findings and discuss future improvements.
 
-Machine Learning Workflow
-Raw Data
-|
-V
-Data Cleaning
-|
-V
-Exploratory Data Analysis
-|
-V
-Feature Engineering
-|
-V
-Train-Test Split
-|
-V
-Preprocessing Pipeline
-|
-V
-Model Training
-|
-V
-Model Evaluation
-|
-V
-Threshold Optimization
-|
-V
-Model Development
-|
-V
-Power BI Dashboard
+# Machine Learning Workflow
+
+Raw Data<br>
+	↓<br>
+Data Cleaning<br>
+	↓<br>
+Exploratory Data Analysis<br>
+	↓<br>
+Feature Engineering<br>
+	↓<br>
+Train-Test Split<br>
+	↓<br>
+Preprocessing Pipeline<br>
+	↓<br>
+Model Training<br>
+	↓<br>
+Model Evaluation<br>
+	↓<br>
+Threshold Optimization<br>
+	↓<br>
+Model Development<br>
+	↓<br>
+Power BI Dashboard<br>
+
 The interactive dashboard provides insights into transaction activity and fraud trends
 
 
@@ -196,14 +188,14 @@ Several classification thresholds were evaluated. Although higher thresholds imp
 
 # ROC Curve
 
-<img width="800" height="800" alt="roc_curve" src="https://github.com/user-attachments/assets/78c1fb23-b74e-4b2d-814b-c976da26e5ab" />
+<img width="300" height="300" alt="roc_curve" src="https://github.com/user-attachments/assets/78c1fb23-b74e-4b2d-814b-c976da26e5ab" />
 
 AUC = 0.68
 This indicates poor-to-moderate predicting power. The Random Forest model  with AUC of 0.69 is underperforming and can not be reliable in decision-making. That is why Logistic Regression with AUC of 0.75 was selected
 
 # Confusion Matrix
 
-<img width="800" height="800" alt="confusion_matrix_logisticRegression" src="https://github.com/user-attachments/assets/e5e99472-39eb-462d-b002-0c10ce28c489" />
+<img width="300" height="300" alt="confusion_matrix_logisticRegression" src="https://github.com/user-attachments/assets/e5e99472-39eb-462d-b002-0c10ce28c489" />
 
 Matrix Breakdown
 •	1278 (True Negatives) Legitimate transaction predicted
@@ -218,7 +210,7 @@ Please Note: For the purpose of the project no further modelling was evaluated t
 
 # Precision Recall
 
- <img width="800" height="800" alt="precision_recall_curve" src="https://github.com/user-attachments/assets/e2d03785-d1c2-41a8-b6ee-d41c5325f6ef" />
+ <img width="300" height="300" alt="precision_recall_curve" src="https://github.com/user-attachments/assets/e2d03785-d1c2-41a8-b6ee-d41c5325f6ef" />
 
  Precision = 0.04
  
