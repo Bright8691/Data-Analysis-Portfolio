@@ -11,25 +11,25 @@ Fraud in financial institutions can cause great financial losses, instability an
 
 # Data
 
-The dataset contains some transaction records and are not limited to the following:
-•	Transaction Identification<br>
-•	Customer Identification<br>
-•	Home Country<br>
-•	Channel<br>
-•	Transaction Amount<br>                  
-•	Bank Charge<br> 
-•	Transaction Currency<br>
-•	Device Identification<br>
-•	IP Address<br>
-•	Country IP<br>                   
-•	Location Mismatch<br>              
-•	IP Risk Score<br>                  
-•	Account Age<br>               
-•	Device Trust Score<br>           
-•	Charge Back History<br>      
-•	Internal Risk Score<br>          
-•	Transaction Velocity<br>               
-•	Fraud Label (is_fraud )<br>
+The dataset contains some transaction records and are not limited to the following:<br>
+- Transaction Identification
+- Customer Identification
+- Home Country
+- Channel
+- Transaction Amount                  
+- Bank Charge 
+- Transaction Currency
+- Device Identification
+- IP Address
+- Country IP                   
+- Location Mismatch              
+- IP Risk Score                  
+- Account Age               
+- Device Trust Score           
+- Charge Back History      
+- Internal Risk Score         
+- Transaction Velocity               
+- Fraud Label (is_fraud )
 
 Target Variable: is_fraud 
 
