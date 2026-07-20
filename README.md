@@ -36,9 +36,10 @@ Target Variable: is_fraud
 •	0 = Legitimate Transaction<br>
 •	1 = Fraudulent Transaction<br>
 
-Technologies Used
+# Technologies Used
 Programming Language 
 •	Python 3.13.9
+
 Libraries
 •	Pandas
 •	NumPy
@@ -50,44 +51,49 @@ Business Intelligence
 •	Microsoft Power BI
 Development Environment
 •	Jupyter Notebook
+
 Project Workflow
+
 An end-to-end machine learning pipeline which consists of 8 major phases was use to evaluate and develop the model
 Phase 1 – Project Setup & Data Collection
 •	Import libraries
 •	Load dataset
 ________________________________________
 Phase 2 – Data Understanding & Exploration
-•	Dataset inspection
-•	Missing value analysis
-•	Duplicate detection
-•	Summary statistics
-•	Exploratory Data Analysis (EDA)
-•	Fraud distribution
-•	Correlation analysis
+•	Dataset inspection<br>
+•	Missing value analysis<br>
+•	Duplicate detection<br>
+•	Summary statistics<br>
+•	Exploratory Data Analysis (EDA)<br>
+•	Fraud distribution<br>
+•	Correlation analysis<br>
 
 Phase 3 – Data Preprocessing & Feature Engineering
-•	Handle missing values
-•	Remove duplicates
-•	Data type conversion
-•	Outlier treatment
-•	Feature engineering
-•	Train-test split
-•	Data transformation
-•	Preprocessing pipeline
+
+•	Handle missing values<br>
+•	Remove duplicates<br>
+•	Data type conversion<br>
+•	Outlier treatment<br>
+•	Feature engineering<br>
+•	Train-test split<br>
+•	Data transformation<br>
+•	Preprocessing pipeline<br>
 
 Phase 4 – Model Development
+
 Machine learning models evaluated:
-•	Logistic Regression
-•	Decision Tree
-•	Random Forest
-•	XGBoost
+•	Logistic Regression<br>
+•	Decision Tree<br>
+•	Random Forest<br>
+•	XGBoost<br>
 Model optimization:
-•	Hyperparameter tuning
-•	Cross-validation
+•	Hyperparameter tuning<br>
+•	Cross-validation<br>
 
 Phase 5 – Model Evaluation
+
 Evaluation metrics:
-•	Accuracy
+•	Accuracy<br>
 •	Precision
 •	Recall
 •	F1-score
