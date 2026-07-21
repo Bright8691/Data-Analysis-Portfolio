@@ -50,7 +50,8 @@ Libraries
 - Scikit-learn
 - XGBoost
 - Joblib
-- 
+- Jupyter
+  
 Business Intelligence
 
 - Microsoft Power BI
@@ -275,16 +276,16 @@ Please Note: For the purpose of the project no further modelling was evaluated t
  
 This is low, because the maximum is 1.0.  This means that the model is performing no better random guessing the in fraud prediction
 
-How to Run This Project
-Clone the repository:
-git clone https://github.com/Bright8691/Fraud-Detection-System.git
-Navigate to the project directory:
-cd Fraud-Detection-System
-Install dependencies:
-pip install -r requirements.txt
-Open the notebook:
-Jupyter notebook
-Run the notebook from top to bottom.
+# How to Run This Project
+- Clone the repository:
+- git clone https://github.com/Bright8691/Fraud-Detection-System.git
+- Navigate to the project directory:
+- cd Fraud-Detection-System
+- Install libraries:
+- pip install -r requirements.txt
+- Open the notebook:
+- Jupyter notebook
+- Run the notebook from top to bottom.
 
 # Skills Demonstrated
 
