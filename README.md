@@ -175,7 +175,7 @@ The interactive dashboard provides insights into transaction activity and fraud 
  
 # Dashboard Preview
  
-<img width="300" height="160" alt="fraud_powerbi" src="https://github.com/user-attachments/assets/630619fb-da32-4f64-82b0-7c68fa2243d9" />
+<img width="720" height="420" alt="fraud_powerbi" src="https://github.com/user-attachments/assets/630619fb-da32-4f64-82b0-7c68fa2243d9" />
 
 # Dashboard Summary
 
@@ -219,7 +219,7 @@ The result of the model development. Logistic Regression model was selected as t
 |	XGBoost				|	0.9805		|	0.0000		|	0.0000		|	0.0000	|	0.0000  |
 
 						
-Why Choose Logistic Regression?
+**Why Choose Logistic Regression?**
 
 In fraud detection, accuracy is not the most important metric because fraud is an imbalance classification problem. 
 1. Random Forest achieved 97.35% accuracy
@@ -234,7 +234,7 @@ Which means they did not identify a single fraudulent transaction. They simply p
 
 # Logistic Regression
 
-The Logistic Regression achieved:
+**The Logistic Regression achieved:**
 - Accuracy = 65.40%
 - Precision = 4.07%
 - Recall = 74.35%
@@ -257,7 +257,7 @@ This indicates poor-to-moderate predicting power. The Random Forest model  with 
 
 <img width="300" height="300" alt="confusion_matrix_logisticRegression" src="https://github.com/user-attachments/assets/e5e99472-39eb-462d-b002-0c10ce28c489" />
 
-Matrix Breakdown
+**Matrix Breakdown**
 •	1278 (True Negatives) Legitimate transaction predicted
 •	683 (False Positives) incorrectly flagged Legitimate transaction as Fraud
 •	10 (False Negatives) incorrectly missed Fraud transaction labelled as Legitimate
